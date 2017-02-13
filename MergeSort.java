@@ -1,28 +1,7 @@
-/*
-Maximilian Korsun
-APCS2 pd3
-HW06 -- Step 1: Split, Step 2: ?, Step 3: Sorted!. . .
-2017-02-13
-
-
-/*======================================
-  class MergeSort
-  Implements mergesort on array of ints.
-
-  Summary of Algorithm: 
-  First, you take an array of ints. Then the sort function divides it up into 2 arrays. Then, the system is told to merge those 2 arrays, but also break those 2 arrays up into their own halves and merge those, then those halves are merged and halved, so on so forth until it reaches a point where they can no longer be halved. Then, those however many size 1 arrays are merged in groups of however many divided by 2, now the however many divided by 2 are merged in groups of 2 so there is however many divided by 4 arrays left, so on so forth until only 1 array remains, a fully sorted one. The merge algorithm works by looking through 2 arrays in order. If the current position in one array is a higher value then another, the position is set to plus one and that value is placed in the return array. once one array has been looked through completely, everything from the other array is placed at the end of the return array.
-  ======================================*/
 
 public class MergeSort {
 
-   /******************************************************
-     * int[] merge(int[],int[]) 
-     * Merges two input arrays
-     * Precond:  Input arrays are sorted in ascending order
-     * Postcond: Input arrays unchanged, and 
-     * output array sorted in ascending order.
-     ******************************************************/
-    private static int[] merge( int[] a, int[] b ) 
+    public int[] merge( int[] a, int[] b ) 
     {
 	int[] retarr = new int[a.length+b.length];
 	int acount = 0;
@@ -65,8 +44,9 @@ public class MergeSort {
      * Sorts input array using mergesort algorithm
      * Returns sorted version of input array (ascending)
      ******************************************************/
-    public static int[] sort( int[] arr ) 
+    public int[] sort( int[] arr ) 
     {
+	
 	
 	if(arr.length > 1){
 	    int pos = arr.length/2;
@@ -105,9 +85,10 @@ public class MergeSort {
 
 
     //main method for testing
+    /*
     public static void main( String [] args ) {
 
-	/*  
+
 	int[] arr0 = {0};
 	int[] arr1 = {1};
 	int[] arr2 = {1,2};
@@ -134,7 +115,7 @@ public class MergeSort {
 	printArray( sort( arr6 ) );
 	printArray( sort( arr7 ) );
         */
-    }//end main()
+    //   }//end main()
 
 }//end class MergeSort
 

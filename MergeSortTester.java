@@ -21,6 +21,12 @@
 
 public class MergeSortTester 
 {
+    public MergeSortTester(){
+
+
+
+
+    }
 
     /******************************
      * execution time analysis 
@@ -30,6 +36,7 @@ public class MergeSortTester
      ******************************/
     public static void main( String[] args ) 
     {
+	MergeSortTester a = new MergeSortTester();
 
     }//end main
 
