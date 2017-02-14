@@ -17,7 +17,7 @@ HW#07: What Does the Data Say?
   Generate random array/arraylist
   Take time
   Sort
-  Take the time it takes
+  Take the time it takes in nanoseconds
   Repeat
   Average out
 
@@ -55,8 +55,20 @@ HW#07: What Does the Data Say?
   time m: 1881104.61
   time b: 4.1562852499E8
 
+  Max's school PC
+  Trial 1:
 
-  Do the math assuming BubbleSearch is n^2 and as n grows, Merge becomes closer to n log (n)
+  time m: 1600020.42
+  time b: 2.6317848193E8
+
+  Trial 2:
+
+  time m: 1588243.48
+  time b: 2.6166532841E8
+
+
+  Do the math assuming BubbleSearch is n^2 and as n grows, Merge becomes closer to 10 n log (n). However, 10nlog(n)
+  would round down to nlog(n) as 10nlog(n) is too far away from n^2 to round up.
 
   ======================================*/
 
