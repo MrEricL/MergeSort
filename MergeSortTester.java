@@ -24,11 +24,13 @@ HW#07: What Does the Data Say?
   BIG-OH CLASSIFICATION OF ALGORITHM:
   
   n log (n)
-
+	
   ANALYSIS:
-
+  time m = time for MergeSort
+  time b = time for BubbleSort
   Batch size: 1,000,000
-  n=100    
+  n=100 
+  Eric L's device	   
   Trial 1: 
 
   time m: 12027.38515
@@ -42,6 +44,7 @@ HW#07: What Does the Data Say?
 
   Batch size: 100
   n=10,000
+  Eric L's device
   Trial 1:
 
   time m: 2342149.93
