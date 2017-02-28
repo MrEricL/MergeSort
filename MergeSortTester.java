@@ -123,7 +123,7 @@ public class MergeSortTester
     }
 
     public int[] generate(){
-	int[] ret = new int[10000];
+	int[] ret = new int[1];
 	
 	for (int i = 0; i < ret.length; i++){
 	    ret[i] = (int)(Math.random()*100);
@@ -134,7 +134,7 @@ public class MergeSortTester
 
     public ArrayList<Comparable> gen(){
 	ArrayList<Comparable> ret = new ArrayList<Comparable>();
-	for (int i = 0; i < 10000; i++){
+	for (int i = 0; i < 1; i++){
 	    ret.add((int)(Math.random()*100));
 	}
 	return ret;	
