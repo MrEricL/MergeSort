@@ -10,10 +10,10 @@ If you look at the data, the batch size represents the number of times we random
 Merge sort was run alongside with bubblesort. Assuming that the bubblesort code is correct, and that it runs in n^2 time, we can then safely assume that there is correlation with the time of mergesort. Once understanding what n would roughly mean (ideally this refers to the data size, but it will vary due to computer differences), we can attempt to solve for the run time of merge sort. 
 
 *For Example
-bubble sort: 100 ns
-n^2=100, thus n=10
-merge sort: 50 ns
-5n=50, thus it seems that merge sort seems to be running almost linearly (x*n)
+bubble sort: 100 ns  
+n^2=100, thus n=10   
+merge sort: 50 ns   
+5n=50, thus it seems that merge sort seems to be running almost linearly (x*n)   
 
 This is applied for larger and larger data sets in order to find out what merge sort on average would run as. 
 
