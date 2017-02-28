@@ -1,7 +1,7 @@
 # MergeSort
 
 ## Data
-https://docs.google.com/spreadsheets/d/1Kmmko8aiQgMjntf6ujl419Go6C944NH6TJcaiy2oTl0/edit#gid=0
+https://docs.google.com/spreadsheets/d/1Kmmko8aiQgMjntf6ujl419Go6C944NH6TJcaiy2oTl0/pubhtml
 ## Methodology of research
 In order to find the Big-Oh of mergesort, we decided to use the time it takes for bubblesort to sort a data set. In class, we we able to show how bubblesort runs in n^2 time, so we used its time in correlation with the time of mergesort. 
 We would run bubblesort and mergesort on the same set of data, essentially getting estimates (a computer could spit out different results from another) on the time it takes for each sort to run.
