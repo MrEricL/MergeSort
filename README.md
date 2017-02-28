@@ -14,7 +14,7 @@ As a result, our method for mergesort ended up having a runtime of around 10nlog
 
 
 *Exemplis Gratis
-For a data set of 100 run 1,000,000 times
+For a data set of 100 run 1,000,000 times		
 bubble sort: 72132.7 ns  
 n^2 = 72132.7, n = 268.6   
 merge sort: 12027.4 ns   
